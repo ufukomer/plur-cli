@@ -1,0 +1,49 @@
+{
+  "name": "plur-cli",
+  "version": "0.0.0",
+  "description": "Pluralize a word",
+  "license": "MIT",
+  "repository": "ufukomer/plur-cli",
+  "author": {
+    "name": "Ömer Ufuk Efendioğlu",
+    "email": "ufukomer@gmail.com",
+    "url": "ufukomer.github.io"
+  },
+  "bin": {
+    "plur-cli": "cli.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "plur",
+    "plural",
+    "plurals",
+    "pluralize",
+    "singular",
+    "count",
+    "word",
+    "string",
+    "str",
+    "irregular",
+    "noun",
+    "nouns"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "plur": "^2.1.2"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.6.0",
+    "xo": "*"
+  }
+}
