@@ -10,7 +10,7 @@
     "url": "ufukomer.github.io"
   },
   "bin": {
-    "plur-cli": "cli.js"
+    "plur": "cli.js"
   },
   "engines": {
     "node": ">=6"
