@@ -4,11 +4,11 @@ const meow = require('meow');
 const plur = require('plur');
 
 const cli = meow(`
-			Usage
-				$ plur <word>
-			Example
-				$ plur puppy
-				puppies
+	Usage
+		$ plur <word>
+	Example
+		$ plur puppy
+		puppies
 `);
 
 if (cli.input.length === 0) {
